@@ -2,7 +2,7 @@
 
 This repo contains the code for a basic To Do App website made with Svelte and Firebase.
 
-On this To Do App website, users can create and complete tasks which are added to a To Do List. This site also has the additional functionalities of being able to delete tasks. The site also displays a counter of the total number of tasks and the number of completed tasks. All tasks are stored in a database using Firebase, so the tasks remain on the site even after closing and reopening or refreshing the page.
+On this To Do App website, users can create and complete tasks which are added to a To Do List. This site also has the functionality of being able to delete tasks. The site also displays a counter of the total number of tasks and the number of completed tasks. All tasks are stored in a database using Firebase, so the tasks remain on the site even after closing and reopening or refreshing the page.
 
 ## Usage
 
