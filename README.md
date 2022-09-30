@@ -1,38 +1,21 @@
-# create-svelte
+# CS 279 Programming HW4
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This repo contains the code for a basic To Do App website made with Svelte and Firebase.
 
-## Creating a project
+On this To Do App website, users can create and complete tasks which are added to a To Do List. This site also has the additional functionalities of being able to delete tasks. The site also displays a counter of the total number of tasks and the number of completed tasks. All tasks are stored in a database using Firebase, so the tasks remain on the site even after closing and reopening or refreshing the page.
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Usage
 
 ```bash
+git clone https://github.com/eshika/todo-app-svelte.git
+cd todo-app-svelte
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
+Open `localhost:PORT` in your browser of choice (replace port number with the port specified in the output of npm run dev) to view the site. 
 
-## Building
+## References
 
-To create a production version of your app:
+This site was created using the tutorials in this Youtube playlist: https://www.youtube.com/playlist?list=PLm_Qt4aKpfKiGbdjaHdOpry6Neza0etxZ
 
-```bash
-npm run build
-```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
